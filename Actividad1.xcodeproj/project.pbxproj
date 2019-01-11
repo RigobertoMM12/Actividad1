@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843C2C7321E642B900002037 /* Contantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2C7221E642B900002037 /* Contantes.swift */; };
+		843C2C7521E6470A00002037 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2C7421E6470A00002037 /* Extensions.swift */; };
+		843C2CED21E6873200002037 /* CobranzaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2CEC21E6873200002037 /* CobranzaViewCell.swift */; };
+		843C2CEF21E687D700002037 /* UsuariosCobranzaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2CEE21E687D700002037 /* UsuariosCobranzaController.swift */; };
+		843C2CF321E68AE000002037 /* EmpleadosCobranza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2CF221E68AE000002037 /* EmpleadosCobranza.swift */; };
+		843C2CF521E786BA00002037 /* Rutas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2CF421E786BA00002037 /* Rutas.swift */; };
+		843C2CF721E79ABD00002037 /* RutasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2CF621E79ABD00002037 /* RutasViewController.swift */; };
+		843C2CF921E79B4F00002037 /* RutasViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2CF821E79B4F00002037 /* RutasViewCell.swift */; };
+		843C2D3C21E7D11200002037 /* ModelEmpleados.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843C2D3A21E7D11200002037 /* ModelEmpleados.xcdatamodeld */; };
+		843C2D3E21E7E13000002037 /* altausuarios.png in Resources */ = {isa = PBXBuildFile; fileRef = 843C2D3D21E7E12F00002037 /* altausuarios.png */; };
+		843C2D4021E7E1A600002037 /* RegistroEmpledoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2D3F21E7E1A600002037 /* RegistroEmpledoController.swift */; };
+		843C2D4221E7F05400002037 /* ModificarUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2D4121E7F05400002037 /* ModificarUsuarioController.swift */; };
+		843C2D4421E8DBD900002037 /* EmpleadosManegger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2D4321E8DBD900002037 /* EmpleadosManegger.swift */; };
+		843C2D4621E8E43600002037 /* ListaEmpleadoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2D4521E8E43600002037 /* ListaEmpleadoController.swift */; };
+		843C2D4821E8E48900002037 /* EmpledosReViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C2D4721E8E48900002037 /* EmpledosReViewCell.swift */; };
+		8454579E21E4EA880005E7F0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454579D21E4EA880005E7F0 /* MenuViewController.swift */; };
+		845457A021E4F0800005E7F0 /* credito.png in Resources */ = {isa = PBXBuildFile; fileRef = 8454579F21E4F0800005E7F0 /* credito.png */; };
+		845457A221E4F0850005E7F0 /* cobranza.png in Resources */ = {isa = PBXBuildFile; fileRef = 845457A121E4F0850005E7F0 /* cobranza.png */; };
+		848BD30821E9267B001A894C /* listaUSuarios.png in Resources */ = {isa = PBXBuildFile; fileRef = 848BD30721E9267B001A894C /* listaUSuarios.png */; };
 		84B12DF921E3D37D00ECC3E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B12DF821E3D37D00ECC3E5 /* AppDelegate.swift */; };
 		84B12DFB21E3D37D00ECC3E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B12DFA21E3D37D00ECC3E5 /* ViewController.swift */; };
 		84B12DFE21E3D37D00ECC3E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B12DFC21E3D37D00ECC3E5 /* Main.storyboard */; };
@@ -14,6 +33,10 @@
 		84B12E0321E3D37E00ECC3E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B12E0121E3D37E00ECC3E5 /* LaunchScreen.storyboard */; };
 		84B12E0E21E3D37E00ECC3E5 /* Actividad1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B12E0D21E3D37E00ECC3E5 /* Actividad1Tests.swift */; };
 		84B12E1921E3D37E00ECC3E5 /* Actividad1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B12E1821E3D37E00ECC3E5 /* Actividad1UITests.swift */; };
+		84B12E2721E3D47E00ECC3E5 /* usuario.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B12E2621E3D47E00ECC3E5 /* usuario.png */; };
+		84B12E2921E3DE3A00ECC3E5 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B12E2821E3DE3A00ECC3E5 /* RegistroViewController.swift */; };
+		84B12E2B21E3E08700ECC3E5 /* RecuperarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B12E2A21E3E08700ECC3E5 /* RecuperarController.swift */; };
+		84B12E2D21E3E3CD00ECC3E5 /* Usuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B12E2C21E3E3CD00ECC3E5 /* Usuarios.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		843C2C7221E642B900002037 /* Contantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contantes.swift; sourceTree = "<group>"; };
+		843C2C7421E6470A00002037 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		843C2CEC21E6873200002037 /* CobranzaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobranzaViewCell.swift; sourceTree = "<group>"; };
+		843C2CEE21E687D700002037 /* UsuariosCobranzaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuariosCobranzaController.swift; sourceTree = "<group>"; };
+		843C2CF221E68AE000002037 /* EmpleadosCobranza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadosCobranza.swift; sourceTree = "<group>"; };
+		843C2CF421E786BA00002037 /* Rutas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rutas.swift; sourceTree = "<group>"; };
+		843C2CF621E79ABD00002037 /* RutasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutasViewController.swift; sourceTree = "<group>"; };
+		843C2CF821E79B4F00002037 /* RutasViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutasViewCell.swift; sourceTree = "<group>"; };
+		843C2D3B21E7D11200002037 /* ModelEmpleados.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelEmpleados.xcdatamodel; sourceTree = "<group>"; };
+		843C2D3D21E7E12F00002037 /* altausuarios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = altausuarios.png; sourceTree = "<group>"; };
+		843C2D3F21E7E1A600002037 /* RegistroEmpledoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroEmpledoController.swift; sourceTree = "<group>"; };
+		843C2D4121E7F05400002037 /* ModificarUsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModificarUsuarioController.swift; sourceTree = "<group>"; };
+		843C2D4321E8DBD900002037 /* EmpleadosManegger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadosManegger.swift; sourceTree = "<group>"; };
+		843C2D4521E8E43600002037 /* ListaEmpleadoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaEmpleadoController.swift; sourceTree = "<group>"; };
+		843C2D4721E8E48900002037 /* EmpledosReViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpledosReViewCell.swift; sourceTree = "<group>"; };
+		8454579D21E4EA880005E7F0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8454579F21E4F0800005E7F0 /* credito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credito.png; sourceTree = "<group>"; };
+		845457A121E4F0850005E7F0 /* cobranza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cobranza.png; sourceTree = "<group>"; };
+		848BD30721E9267B001A894C /* listaUSuarios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listaUSuarios.png; sourceTree = "<group>"; };
 		84B12DF521E3D37D00ECC3E5 /* Actividad1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Actividad1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B12DF821E3D37D00ECC3E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B12DFA21E3D37D00ECC3E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +89,10 @@
 		84B12E1421E3D37E00ECC3E5 /* Actividad1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Actividad1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B12E1821E3D37E00ECC3E5 /* Actividad1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad1UITests.swift; sourceTree = "<group>"; };
 		84B12E1A21E3D37E00ECC3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B12E2621E3D47E00ECC3E5 /* usuario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usuario.png; sourceTree = "<group>"; };
+		84B12E2821E3DE3A00ECC3E5 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		84B12E2A21E3E08700ECC3E5 /* RecuperarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecuperarController.swift; sourceTree = "<group>"; };
+		84B12E2C21E3E3CD00ECC3E5 /* Usuarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuarios.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +123,15 @@
 		84B12DEC21E3D37D00ECC3E5 = {
 			isa = PBXGroup;
 			children = (
+				843C2D4521E8E43600002037 /* ListaEmpleadoController.swift */,
+				843C2D3A21E7D11200002037 /* ModelEmpleados.xcdatamodeld */,
 				84B12DF721E3D37D00ECC3E5 /* Actividad1 */,
 				84B12E0C21E3D37E00ECC3E5 /* Actividad1Tests */,
 				84B12E1721E3D37E00ECC3E5 /* Actividad1UITests */,
 				84B12DF621E3D37D00ECC3E5 /* Products */,
+				8454579F21E4F0800005E7F0 /* credito.png */,
+				845457A121E4F0850005E7F0 /* cobranza.png */,
+				848BD30721E9267B001A894C /* listaUSuarios.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +148,27 @@
 		84B12DF721E3D37D00ECC3E5 /* Actividad1 */ = {
 			isa = PBXGroup;
 			children = (
+				84B12E2621E3D47E00ECC3E5 /* usuario.png */,
 				84B12DF821E3D37D00ECC3E5 /* AppDelegate.swift */,
 				84B12DFA21E3D37D00ECC3E5 /* ViewController.swift */,
+				843C2C7421E6470A00002037 /* Extensions.swift */,
 				84B12DFC21E3D37D00ECC3E5 /* Main.storyboard */,
+				843C2D4721E8E48900002037 /* EmpledosReViewCell.swift */,
+				843C2D3F21E7E1A600002037 /* RegistroEmpledoController.swift */,
+				843C2D4121E7F05400002037 /* ModificarUsuarioController.swift */,
+				843C2D4321E8DBD900002037 /* EmpleadosManegger.swift */,
+				843C2CF621E79ABD00002037 /* RutasViewController.swift */,
+				843C2CF821E79B4F00002037 /* RutasViewCell.swift */,
+				843C2D3D21E7E12F00002037 /* altausuarios.png */,
+				843C2CF221E68AE000002037 /* EmpleadosCobranza.swift */,
+				843C2CF421E786BA00002037 /* Rutas.swift */,
+				843C2CEE21E687D700002037 /* UsuariosCobranzaController.swift */,
+				843C2CEC21E6873200002037 /* CobranzaViewCell.swift */,
+				843C2C7221E642B900002037 /* Contantes.swift */,
+				8454579D21E4EA880005E7F0 /* MenuViewController.swift */,
+				84B12E2C21E3E3CD00ECC3E5 /* Usuarios.swift */,
+				84B12E2A21E3E08700ECC3E5 /* RecuperarController.swift */,
+				84B12E2821E3DE3A00ECC3E5 /* RegistroViewController.swift */,
 				84B12DFF21E3D37E00ECC3E5 /* Assets.xcassets */,
 				84B12E0121E3D37E00ECC3E5 /* LaunchScreen.storyboard */,
 				84B12E0421E3D37E00ECC3E5 /* Info.plist */,
@@ -230,7 +299,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B12E0321E3D37E00ECC3E5 /* LaunchScreen.storyboard in Resources */,
+				845457A221E4F0850005E7F0 /* cobranza.png in Resources */,
 				84B12E0021E3D37E00ECC3E5 /* Assets.xcassets in Resources */,
+				843C2D3E21E7E13000002037 /* altausuarios.png in Resources */,
+				848BD30821E9267B001A894C /* listaUSuarios.png in Resources */,
+				845457A021E4F0800005E7F0 /* credito.png in Resources */,
+				84B12E2721E3D47E00ECC3E5 /* usuario.png in Resources */,
 				84B12DFE21E3D37D00ECC3E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +331,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B12DFB21E3D37D00ECC3E5 /* ViewController.swift in Sources */,
+				8454579E21E4EA880005E7F0 /* MenuViewController.swift in Sources */,
+				843C2D4821E8E48900002037 /* EmpledosReViewCell.swift in Sources */,
+				843C2D4421E8DBD900002037 /* EmpleadosManegger.swift in Sources */,
+				84B12E2D21E3E3CD00ECC3E5 /* Usuarios.swift in Sources */,
+				843C2D4021E7E1A600002037 /* RegistroEmpledoController.swift in Sources */,
+				843C2CED21E6873200002037 /* CobranzaViewCell.swift in Sources */,
+				843C2C7521E6470A00002037 /* Extensions.swift in Sources */,
+				843C2CF521E786BA00002037 /* Rutas.swift in Sources */,
+				843C2CF921E79B4F00002037 /* RutasViewCell.swift in Sources */,
+				843C2D4221E7F05400002037 /* ModificarUsuarioController.swift in Sources */,
+				843C2C7321E642B900002037 /* Contantes.swift in Sources */,
+				84B12E2B21E3E08700ECC3E5 /* RecuperarController.swift in Sources */,
+				843C2CF721E79ABD00002037 /* RutasViewController.swift in Sources */,
+				84B12E2921E3DE3A00ECC3E5 /* RegistroViewController.swift in Sources */,
+				843C2D4621E8E43600002037 /* ListaEmpleadoController.swift in Sources */,
+				843C2CEF21E687D700002037 /* UsuariosCobranzaController.swift in Sources */,
+				843C2CF321E68AE000002037 /* EmpleadosCobranza.swift in Sources */,
 				84B12DF921E3D37D00ECC3E5 /* AppDelegate.swift in Sources */,
+				843C2D3C21E7D11200002037 /* ModelEmpleados.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +672,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		843C2D3A21E7D11200002037 /* ModelEmpleados.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				843C2D3B21E7D11200002037 /* ModelEmpleados.xcdatamodel */,
+			);
+			currentVersion = 843C2D3B21E7D11200002037 /* ModelEmpleados.xcdatamodel */;
+			path = ModelEmpleados.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84B12DED21E3D37D00ECC3E5 /* Project object */;
 }
